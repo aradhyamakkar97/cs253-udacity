@@ -1,0 +1,9 @@
+<h1>aradhya's blog, complete edition unit 3</h1>
+<h3>these are list of all blogs</h3>
+<hr>
+{% for i in posts %}
+<h2>{{i.subject}}</h2>
+<pre>
+<p>{{i.content}}</p>
+</pre>
+{% endfor %}
