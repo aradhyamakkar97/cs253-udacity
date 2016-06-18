@@ -1,6 +1,6 @@
-import os
 import jinja2
 import webapp2
+from google.appengine.ext import db
 
 jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader('./templates'),autoescape=True)
 
