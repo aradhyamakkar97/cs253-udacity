@@ -63,7 +63,6 @@ class SignUp(Handler):
         else:
             self.render('signup.html')
 
-        # other wise redirect to welcome page
 
     def post(self):
         username=self.request.get('username')
@@ -127,8 +126,6 @@ class Login(Handler):
         except:
             self.render('login.html',error='username doesnt exist')
 
-
-        # TO COMPLETE, if valid login credidentials, redirect to welcome page, else show error
 
 
 
